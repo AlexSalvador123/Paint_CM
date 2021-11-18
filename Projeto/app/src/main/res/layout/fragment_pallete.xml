@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pallete"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="19dp"
+        android:backgroundTint="#2196F3"
+        android:onClick="setColorBlue" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="184dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="@color/green"
+        android:onClick="setColorGreen" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="191dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="210dp"
+        android:backgroundTint="@color/red"
+        android:onClick="setColorRed" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="426dp"
+        android:layout_marginEnd="116dp"
+        android:background="@drawable/ic_baseline_clear_24"
+        android:onClick="erase" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="187dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="209dp"
+        android:backgroundTint="@color/black"
+        android:onClick="setColor" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="326dp"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="155dp" />
+
+
+
+
+</RelativeLayout>
